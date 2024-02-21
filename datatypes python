@@ -1,0 +1,92 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP/EBHLKwZdLV932b9aKLCg",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ushateeparthi/Library-Management-System-my-sql/blob/main/datatypes%20python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Integer\n",
+        "num_int = 10\n",
+        "\n",
+        "# Float\n",
+        "num_float = 3.14\n",
+        "\n",
+        "# String\n",
+        "str_var = \"Hello, World!\"\n",
+        "\n",
+        "# Boolean\n",
+        "bool_var = True\n",
+        "\n",
+        "# List\n",
+        "list_var = [1, 2, 3, 4, 5]\n",
+        "\n",
+        "# Tuple\n",
+        "tuple_var = (6, 7, 8, 9, 10)\n",
+        "\n",
+        "# Set\n",
+        "set_var = {1, 2, 3, 4, 5}\n",
+        "\n",
+        "# Dictionary\n",
+        "dict_var = {'a': 1, 'b': 2, 'c': 3}\n",
+        "\n",
+        "# Printing the values and types\n",
+        "print(\"Integer:\", num_int, type(num_int))\n",
+        "print(\"Float:\", num_float, type(num_float))\n",
+        "print(\"String:\", str_var, type(str_var))\n",
+        "print(\"Boolean:\", bool_var, type(bool_var))\n",
+        "print(\"List:\", list_var, type(list_var))\n",
+        "print(\"Tuple:\", tuple_var, type(tuple_var))\n",
+        "print(\"Set:\", set_var, type(set_var))\n",
+        "print(\"Dictionary:\", dict_var, type(dict_var))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qjSGudmUyumi",
+        "outputId": "2380c6f6-825d-4117-f66c-aae2c59df3ca"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Integer: 10 <class 'int'>\n",
+            "Float: 3.14 <class 'float'>\n",
+            "String: Hello, World! <class 'str'>\n",
+            "Boolean: True <class 'bool'>\n",
+            "List: [1, 2, 3, 4, 5] <class 'list'>\n",
+            "Tuple: (6, 7, 8, 9, 10) <class 'tuple'>\n",
+            "Set: {1, 2, 3, 4, 5} <class 'set'>\n",
+            "Dictionary: {'a': 1, 'b': 2, 'c': 3} <class 'dict'>\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
